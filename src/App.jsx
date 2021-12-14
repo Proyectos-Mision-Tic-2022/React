@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div>hola mundo, esto es un div en react</div>
+        
         <ul className="navbar">
           <li>
             <img src={logo} alt="imagen" className="logo" />
