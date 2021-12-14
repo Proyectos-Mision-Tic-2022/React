@@ -33,8 +33,9 @@ function App() {
         <section>
           <h1>Razas de Perros</h1>
           <ul className="breedCardContainer">
-            <CardRazasPerros />
-            <CardRazasPerros />
+            <CardRazasPerros nombreRaza="BorderCollie" imagen={borderCollie} color='backGroundVerde'/>
+            <CardRazasPerros nombreRaza="Rhodesain" imagen={rhodesian} color='backGroundRojo'/>
+            <CardRazasPerros nombreRaza="Rhodesain" imagen={rhodesian} color='backGroundRojo' />
           </ul>
         </section>
         <section></section>
@@ -44,13 +45,15 @@ function App() {
   );
 }
 
-function CardRazasPerros() {
+function CardRazasPerros({nombreRaza, imagen, color}) {
   return (
     <li className="breedCard">
-      <div className="contenedorImagen">
-        <img src={borderCollie} alt="Border Collie" />
+      <div className={color}>
+        <div className="contenedorImagen">
+          <img src={imagen} alt={nombreRaza} />
+        </div>
+        <span className="breedTitle">{nombreRaza} </span>
       </div>
-      <span className="breedTitle">Border Collie </span>
     </li>
   );
 }
