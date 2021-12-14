@@ -1,8 +1,8 @@
-function rhodesian(){
+function RhodesianInfoPage(){
 
     return (
 
         <div><p>Esta es la pagina del info del rhodesain</p></div>
     );
 }
-export default rhodesian();
+export default RhodesianInfoPage;

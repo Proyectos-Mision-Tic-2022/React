@@ -1,4 +1,5 @@
 import Index from "pages";
+import RhodesianInfoPage from "pages/rhodesian";
 import "styles/styles.css";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
@@ -7,7 +8,10 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/index">
+          <Route path="/rhodesian">
+            < RhodesianInfoPage/>
+          </Route>
+          <Route path="/">
             <Index />
           </Route>
         </Switch>
