@@ -25,6 +25,26 @@ function Index() {
               imagen={rhodesian}
               color="backGroundRojo"
             />
+             <CardRazasPerros
+              nombreRaza="BorderCollie"
+              imagen={borderCollie}
+              color="backGroundVerde"
+            />
+             <CardRazasPerros
+              nombreRaza="BorderCollie"
+              imagen={borderCollie}
+              color="backGroundVerde"
+            />
+            <CardRazasPerros
+              nombreRaza="Rhodesain"
+              imagen={rhodesian}
+              color="backGroundRojo"
+            />
+             <CardRazasPerros
+              nombreRaza="BorderCollie"
+              imagen={borderCollie}
+              color="backGroundVerde"
+            />
           </ul>
         </section>
        
