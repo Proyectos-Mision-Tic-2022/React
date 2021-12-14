@@ -1,12 +1,12 @@
 import CardRazasPerros from "components/CardRazasPerros";
-import Layout from "layouts/Layout";
+
 import borderCollie from "media/borderCollie.jpg";
 import rhodesian from "media/rhodesian.jpg";
 
 function Index() {
   return (
-    <Layout>
-      <main>
+    
+ 
         <section>
           <h1>Razas de Perros</h1>
           <ul className="breedCardContainer">
@@ -27,9 +27,8 @@ function Index() {
             />
           </ul>
         </section>
-        <section></section>
-      </main>
-    </Layout>
+       
+   
   );
 }
 
