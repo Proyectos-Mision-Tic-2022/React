@@ -1,13 +1,17 @@
-function CardRazasPerros({nombreRaza, imagen, color}) {
-    return (
-      <li className="breedCard">
+import { Link } from "react-router-dom";
+
+function CardRazasPerros({ nombreRaza, imagen, color }) {
+  return (
+    <li className="breedCard">
+      <Link to="/rhodesian">
         <div className={color}>
           <div className="contenedorImagen">
             <img src={imagen} alt={nombreRaza} />
           </div>
-          <span className="breedTitle">{nombreRaza} </span>
         </div>
-      </li>
-    );
-  }
-  export default CardRazasPerros;
+      </Link>
+      <span className="breedTitle">{nombreRaza} </span>
+    </li>
+  );
+}
+export default CardRazasPerros;

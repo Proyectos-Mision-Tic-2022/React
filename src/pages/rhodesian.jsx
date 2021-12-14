@@ -1,8 +1,10 @@
-function RhodesianInfoPage(){
+import Layout from "layouts/Layout";
 
-    return (
-
-        <div><p>Esta es la pagina del info del rhodesain</p></div>
-    );
+function RhodesianInfoPage() {
+  return (
+    <Layout>
+      <div>Informacion de Rhodesian</div>
+    </Layout>
+  );
 }
 export default RhodesianInfoPage;
